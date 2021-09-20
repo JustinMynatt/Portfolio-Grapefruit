@@ -1,0 +1,47 @@
+/* 
+
+Project Name: Grapefruit 
+Client: Grapefruit
+Author: Justin Mynatt 
+Developed @ Home in Hawaii 
+
+*/
+
+body {
+	
+	background: black url(../images/grapefruit-live.jpg);
+	
+
+
+	/* the follow is the code to have the image display as a full page */
+	background-position: 75%;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-attachment: 75%;
+	-webkit-background-size: 75%; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: 75%;
+	-o-background-size: 75%;
+	background-size: 75%;
+
+	
+}
+#container { background: black;
+	width: 350px;
+	color: white;
+	padding: 10px;
+}
+
+h1 { font-size: 55px;
+	font-family: 'Lato', sans-serif;
+}
+
+h2 {background: #bdf1d5;
+color: rgb(39, 12, 12);
+padding: 5px;
+border-radius: 5px;
+font-family: 'Lato', sans-serif;
+}
+
+a { color: #54fad6;
+	text-decoration: none;
+}
